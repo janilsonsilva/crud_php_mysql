@@ -26,9 +26,9 @@
         -> Isso acontece porque a tabela está sendo criada através da instrução sql na variável $sql que é acionada toda 
            vez que o arquivo conexão é requerido.
         -> Depois de criada pela primeira vez, não vai ser criada outra novamente.
-        
+
         */
     }
-    //OBS: Só vai ser preciso criar o banco de dados "Cadastro_aluno". A tabela usuarios é criada pela instrução acima.
+    //OBS: Só vai ser preciso criar o banco de dados "cadastro_aluno". A tabela usuarios é criada pela instrução acima.
 ?>
 
