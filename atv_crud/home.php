@@ -8,9 +8,9 @@
 <body>
 
     <?php 
-        require_once 'conexao.php';
-
         if(isset($_REQUEST['id'])){
+            require_once 'conexao.php';
+            
             $id = $_REQUEST['id'];
             $sql = "select * from usuarios where id='$id'";
             $rs = mysqli_query($con, $sql);

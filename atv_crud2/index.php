@@ -31,11 +31,11 @@
     ?>
 
     <form action="<?=$local?>" method="post">
-        <label>Nome:<br>            <input name="nome" value="<?=isset($nome)?$nome:''?>" required></label><br>
-        <label>Idade:<br>           <input name="idade" value="<?=isset($idade)?$idade:''?>" type="number" required></label><br>
-        <label>matricula:<br>       <input name="matricula" value="<?=isset($matricula)?$matricula:''?>" required></label><br>
-        <label>E-mail:<br>          <input name="email" type="email" value="<?=isset($email)?$email:''?>" required></label><br>
-        <label>Senha:<br>           <input name="senha" type="password" value="<?=isset($senha)?$senha:''?>" required></label><br>
+        <label>Nome:<br>      <input name="nome" value="<?=isset($nome)?$nome:''?>" required></label><br>
+        <label>Idade:<br>     <input name="idade" value="<?=isset($idade)?$idade:''?>" type="number" required></label><br>
+        <label>matricula:<br> <input name="matricula" value="<?=isset($matricula)?$matricula:''?>" required></label><br>
+        <label>E-mail:<br>    <input name="email" type="email" value="<?=isset($email)?$email:''?>" required></label><br>
+        <label>Senha:<br>     <input name="senha" type="password" value="<?=isset($senha)?$senha:''?>" required></label><br>
         <input type="submit" value="<?=$opcaoForm?>">
     </form>
 
