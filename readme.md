@@ -1,1 +1,1 @@
-a única diferença é que no segundo CRUD a tabela é criada por meio de uma instrução SQL presente no arquivo conexão.php
+.
